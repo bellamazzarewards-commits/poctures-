@@ -1,0 +1,72 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Crafty+Girls&display=swap');
+
+.sticky-note {
+  background-color: #a8e6e0;
+  padding: 30px 25px;
+  border-radius: 2px;
+  box-shadow: 3px 5px 10px rgba(0,0,0,0.3);
+  transform: rotate(-2deg);
+  transition: transform 0.3s ease;
+  position: relative;
+  max-width: 320px;
+  font-family: 'Emilys Candy', cursive;
+}
+.sticky-note:hover {
+  transform: rotate(0deg) scale(1.03);
+}
+.sticky-note::before {
+  content: "";
+  background-image: url("PASTE IMAGE OF PUSHPIN OR STICKER ETC");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.sticky-note h2 {
+  color: #2d7a74;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: 'Crafty Girls', cursive;
+  font-size: 34px;
+}
+.sticky-note-content {
+  display: flex;
+  align-items: center;
+}
+.sticky-note img {
+  width: 110px;
+  margin-right: 15px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.sticky-note a {
+  color: #1d5c9e; 
+  font-weight: 600;
+  text-decoration: underline;
+}
+.sticky-note a:hover {
+  color: #123f6e;
+}
+.sticky-note .tagline {
+  font-size: 13px;
+  display: block;
+  margin-top: 6px;
+}
+</style>
+
+<div class="sticky-note">
+  <h2>about me</h2>
+  <div class="sticky-note-content">
+    <img src="" />
+    <p>
+      <a href="[link to your about me page]">Isabella Mazza</a>
+      <span class="tagline">life really is sunshine and rainbows</span>
+    </p>
+  </div>
+</div>

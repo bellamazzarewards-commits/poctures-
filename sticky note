@@ -63,7 +63,7 @@
 <div class="sticky-note">
   <h2>about me</h2>
   <div class="sticky-note-content">
-    <img "https://github.com/user-attachments/assets/ffcd9493-7c44-4f9d-aa43-c71a38b8d40f";
+    <img ("https://github.com/user-attachments/assets/ffcd9493-7c44-4f9d-aa43-c71a38b8d40f");
 # poctures-/>
     <p>
       <a href="[link to your about me page]">Isabella Mazza</a>

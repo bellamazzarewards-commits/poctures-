@@ -17,7 +17,8 @@
 }
 .sticky-note::before {
   content: "";
-  background-image: url("https://github.com/user-attachments/assets/6ac92448-8cfd-4302-bc64-4ea2fd50b8b9"/>
+  background-image: src="https://github.com/user-attachments/assets/1cd2ffd1-beb5-468e-b387-7fb74a9c8f04" />
+  <p>
   background-size: contain;
   background-repeat: no-repeat;
   width: 30px;
